@@ -18,8 +18,8 @@ const Navbar = () => {
         <div className="flex items-center gap-4">
           <a href="#about">About</a>
           <a href="#about">Contact</a>
-          <button className='scale-65 cursor-pointer'><img src="../src/assets/shopping-bag 2.png" alt="" /></button>
-          <button className='scale-65 cursor-pointer'><img src="../src/assets/PROFILE.png" alt="" /></button>
+          <button className='scale-65 cursor-pointer'><img src={shoppingBagIcon} alt="" /></button>
+          <button className='scale-65 cursor-pointer'><img src={profileIcon} alt="" /></button>
         </div>
     </nav>
   )
