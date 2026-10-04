@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
+import heroImg from '../assets/hero-img.png'
 
 
 const Hero = () => {
@@ -28,7 +29,7 @@ const Hero = () => {
                 <div className="relative">
                     <div className="image relative z-20">
                         
-                        <img className='w-97 h-auto cursor-pointer' src="../src/assets/hero-img.png " alt="hero" />
+                        <img className='w-97 h-auto cursor-pointer' src={heroImg} alt="hero" />
                     </div>
 
                     

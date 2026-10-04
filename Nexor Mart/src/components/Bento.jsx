@@ -1,4 +1,8 @@
 import React from 'react'
+import models from '../assets/trending-models.png'
+import cap from '../assets/cap.png'
+import benie from '../assets/benie.png'
+import glasses from '../assets/glasses.png'
 
 
 
@@ -13,7 +17,7 @@ const Bento = () => {
           <div className="relative h-full overflow-hidden rounded-[24px] bg-[#e8cfd6]">
 
             <img
-              src="../src/assets/trending-models.png"
+              src={models}
               alt="FASHION"
               className="w-full h-full object-cover"
             />
@@ -61,7 +65,7 @@ const Bento = () => {
             <div className="relative h-full overflow-hidden rounded-[24px] bg-[#eee] flex items-center justify-center">
 
               <img
-                src="../src/assets/cap.png"
+                src={cap}
                 alt="CAP"
                 className="w-[70%] h-[70%] object-contain"
               />
@@ -109,7 +113,7 @@ const Bento = () => {
               <div className="relative h-full overflow-hidden rounded-[24px] bg-white flex items-center justify-center">
 
                 <img
-                  src="../src/assets/benie.png"
+                  src={benie}
                   alt="BEANIE"
                   className="w-[90%] h-[90%] object-contain"
                 />
@@ -154,7 +158,7 @@ const Bento = () => {
               <div className="relative h-full overflow-hidden rounded-[24px] bg-white flex items-center justify-center">
 
                 <img
-                  src="../src/assets/glasses.png"
+                  src={glasses}
                   alt="SUNGLASSES"
                   className="w-[90%] h-[90%] object-contain"
                 />

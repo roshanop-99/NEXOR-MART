@@ -1,4 +1,7 @@
 import React from 'react'
+import catMen from '../assets/cat-men.png'
+import catWomen from '../assets/cat-men.png'
+import accessories from '../assets/acccessories.png'
 
 const Cards = ({ image, title,gradientColor }) => {
   return (

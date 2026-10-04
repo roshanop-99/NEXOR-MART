@@ -6,19 +6,19 @@ const categories = [
   {
     id: 1,
     title: "MEN’S COLLECTION",
-    image: "../src/assets/cat-men.png",
+    image: 'catMen',
     gradientColor: "#D3A25D",
   },
   {
     id: 2,
     title: "WOMEN’S COLLECTION",
-    image: "../src/assets/cat-women.png",
+    image: 'catWomen',
     gradientColor: "#D72C84",
   },
   {
     id: 3,
     title: "ACCESSORIES",
-    image: "../src/assets/acccessories.png",
+    image: 'accessories',
     gradientColor: "#4048E3",
   },
 ];
