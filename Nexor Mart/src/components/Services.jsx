@@ -8,25 +8,25 @@ import packages from '../assets/Package.png'
 const services = [
   {
     id: 1,
-    icon: 'delivery',
+    icon: delivery,
     title: "FAST DELIVERY",
     subtitle: "QUICK AND FAST DELIVERY",
   },
   {
     id: 2,
-    icon: "packages",
+    icon: packages,
     title: "EASY RETURNS",
     subtitle: "WITHIN 15 DAYS",
   },
   {
     id: 3,
-    icon: "quality",
+    icon: quality,
     title: "BEST QUALITY",
     subtitle: "BEST DRIP, BEST QUALITY",
   },
   {
     id: 4,
-    icon: "security",
+    icon: security,
     title: "SECURE PAYS",
     subtitle: "100% SECURE PAYMENTS",
   },
