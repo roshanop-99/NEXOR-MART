@@ -4,25 +4,25 @@ import Scard from './Scard'
 const services = [
   {
     id: 1,
-    icon: "../src/assets/Expressdelivery.png",
+    icon: 'delivery',
     title: "FAST DELIVERY",
     subtitle: "QUICK AND FAST DELIVERY",
   },
   {
     id: 2,
-    icon: "../src/assets/Package.png",
+    icon: "packages",
     title: "EASY RETURNS",
     subtitle: "WITHIN 15 DAYS",
   },
   {
     id: 3,
-    icon: "../src/assets/Security.png",
+    icon: "quality",
     title: "BEST QUALITY",
     subtitle: "BEST DRIP, BEST QUALITY",
   },
   {
     id: 4,
-    icon: "../src/assets/Security.png",
+    icon: "security",
     title: "SECURE PAYS",
     subtitle: "100% SECURE PAYMENTS",
   },
