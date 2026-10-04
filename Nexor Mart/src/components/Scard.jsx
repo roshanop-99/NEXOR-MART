@@ -1,8 +1,5 @@
 import React from 'react'
-import delivery from '../assets/Expressdelivery.png'
-import quality from '../assets/Quality.png'
-import security from '../assets/Security.png'
-import packages from '../assets/Package.png'
+
 
 const Scard = ({ icon, title, subtitle }) => {
   return (

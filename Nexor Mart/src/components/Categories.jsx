@@ -1,5 +1,8 @@
 import React from 'react'
-import Cards from './Cards';
+import Cards from './Cards'
+import catMen from '../assets/cat-men.png'
+import catWomen from '../assets/cat-women.png'
+import accessories from '../assets/acccessories.png'
 
 
 const categories = [
