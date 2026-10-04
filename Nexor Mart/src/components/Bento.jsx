@@ -19,7 +19,7 @@ const Bento = () => {
             <img
               src={models}
               alt="FASHION"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
             />
 
             {/* HOVER OVERLAY */}
@@ -67,7 +67,7 @@ const Bento = () => {
               <img
                 src={cap}
                 alt="CAP"
-                className="w-[70%] h-[70%] object-contain"
+                className="w-[70%] h-[70%] object-contain transition-transform duration-500 ease-out group-hover:scale-110"
               />
 
               {/* HOVER OVERLAY */}
@@ -115,7 +115,7 @@ const Bento = () => {
                 <img
                   src={benie}
                   alt="BEANIE"
-                  className="w-[90%] h-[90%] object-contain"
+                  className="w-[90%] h-[90%] object-contain transition-transform duration-500 ease-out group-hover:scale-110"
                 />
 
                 {/* HOVER OVERLAY */}
@@ -160,7 +160,7 @@ const Bento = () => {
                 <img
                   src={glasses}
                   alt="SUNGLASSES"
-                  className="w-[90%] h-[90%] object-contain"
+                  className="w-[90%] h-[90%] object-contain transition-transform duration-500 ease-out group-hover:scale-110"
                 />
 
                 {/* HOVER OVERLAY */}
